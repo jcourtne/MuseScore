@@ -28,7 +28,7 @@
 
 #include "../ifilesystem.h"
 
-class QFile;
+#include <QFile>
 
 namespace muse::io {
 class FileSystem : public IFileSystem
